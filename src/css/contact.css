@@ -1,0 +1,22 @@
+.contact p a {
+  color: #444;
+}
+
+.contact p a:hover {
+  color: #edae49;
+}
+
+.reseaux a i {
+  font-size: 48px;
+  padding: 10px;
+  color: #30638e;
+}
+
+.reseaux a i:hover {
+  color: #e28413;
+}
+
+.photo-contact {
+  height: 350px;
+  width: 300px;
+}/*# sourceMappingURL=contact.css.map */

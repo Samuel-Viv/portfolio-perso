@@ -1,0 +1,35 @@
+footer {
+  background-color: #003d5b;
+  .name {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #f1fffa;
+  }
+  .icon-48 {
+    font-size: 48px;
+
+    padding-left: 12px;
+  }
+
+  .icon-48:hover {
+    color: #e28413;
+  }
+  a {
+    text-decoration: none;
+    color: #f1fffa;
+  }
+  a:hover {
+    color: #e28413;
+  }
+  .footer_realisation {
+    color: #f1fffa;
+  }
+  .copyright {
+    background-color: #f1fffa;
+    p {
+      small {
+        color: #003d5b;
+      }
+    }
+  }
+}

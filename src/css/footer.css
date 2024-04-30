@@ -1,0 +1,31 @@
+footer {
+  background-color: #003d5b;
+}
+footer .name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #f1fffa;
+}
+footer .icon-48 {
+  font-size: 48px;
+  padding-left: 12px;
+}
+footer .icon-48:hover {
+  color: #e28413;
+}
+footer a {
+  text-decoration: none;
+  color: #f1fffa;
+}
+footer a:hover {
+  color: #e28413;
+}
+footer .footer_realisation {
+  color: #f1fffa;
+}
+footer .copyright {
+  background-color: #f1fffa;
+}
+footer .copyright p small {
+  color: #003d5b;
+}/*# sourceMappingURL=footer.css.map */

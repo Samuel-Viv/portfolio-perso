@@ -5,9 +5,9 @@ function Home() {
     <div>
       <main className="home">
         <div className="center text-center">
-          <h1>Samuel VIVIER</h1>
-          <h2>Développeur Web et Web Mobile full stack</h2>
-          <h3>Bienvenue sur mon site </h3>
+          <h1 >Samuel VIVIER</h1>
+          <h2 className="py-5">Développeur Web et Web Mobile full stack</h2>
+          <h3 >Bienvenue sur mon site </h3>
           <h3>cliquer ici pour me découvrir</h3>
           <div className="containerChevron">
             <div className="chevron"></div>

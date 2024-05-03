@@ -1,9 +1,9 @@
 footer {
-  background-color: #003d5b;
+  background-color: transparent;
   .name {
     font-weight: 600;
     font-size: 1.25rem;
-    color: #f1fffa;
+    color: #e28413;
   }
   .icon-48 {
     font-size: 48px;
@@ -14,7 +14,7 @@ footer {
   .icon-48:hover {
     color: #e28413;
   }
-  a {
+  a,p {
     text-decoration: none;
     color: #f1fffa;
   }
@@ -22,7 +22,7 @@ footer {
     color: #e28413;
   }
   .footer_realisation {
-    color: #f1fffa;
+    color: #e28413;
   }
   .copyright {
     background-color: #f1fffa;

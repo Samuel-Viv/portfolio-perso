@@ -1,18 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 //css
 import "../css/header.css";
+//data 
+import projectsData from "./projectsData.json"
 
 function Header() {
+
   return (
     <div>
       <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand text-uppercase mx-3" href="/">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <div className="container-fluid">
+            <Link className="navbar-brand text-uppercase mx-3" to="/">
               samuel vivier
-            </a>
+            </Link>
             <button
-              class="navbar-toggler custom-toggler"
+              className="navbar-toggler custom-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -20,25 +23,18 @@ function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <Link class="nav-link " aria-current="page" to="/about">
-                    A propos
-                  </Link>
+            <div className="collapse navbar-collapse " id="navbarNav">
+              <ul className="navbar-nav ms-auto">
+                <li><NavLink to="/All"  className="nav-link text-uppercase" activeClassName="active">Accueil</NavLink></li>
+               
+              {projectsData.map((project)=>
+                <li key={project.id}>
+                  <NavLink to={`/project/${project.id}`} className="nav-link text-uppercase" activeClassName="active">{project.titre} </NavLink>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/Portfolio">
-                    Portfolio
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/Contact">
-                    Contact
-                  </Link>
-                </li>
+              )}
+               
               </ul>
             </div>
           </div>

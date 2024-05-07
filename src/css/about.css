@@ -31,4 +31,26 @@
 
 .paragraphe {
   font-family: "Montserrat", sans-serif;
+}
+
+.button-cv {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: #00798c;
+}
+.button-cv a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-cv:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #e28413;
+}
+
+.button-cv:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=about.css.map */

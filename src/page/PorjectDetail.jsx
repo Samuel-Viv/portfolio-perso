@@ -41,12 +41,12 @@ function ProjectDetail({ projectsData }) {
             <div className="separation"></div>
             <h3 className="text-center py-2">{project.titre}</h3>
             <div className="text">
-            <p><strong>Description du projet:</strong> {project.description}</p>
+            <p><strong>Description du projet :</strong> {project.description}</p>
             <p>
-              <strong>Technologies utilisées:</strong> {project.technologie}
+              <strong>Technologies utilisées :</strong> {project.technologie}
             </p>
             <p>
-              <strong>GitHub:</strong>{" "}
+              <strong>GitHub :</strong>{" "}
               <a href={project.versionning} target="_blank" rel="noopener noreferrer">
                 {project.versionning}
               </a>

@@ -3,9 +3,9 @@
       "id": "1",
       "titre": "Trouve ton Artisan !",
       "description":
-        "Réalisation d'un site de référencement des Artisans dans la région Auvergne-Rhone-Alpes. Création du maquettage en respectant la charte graphique et du site en incorporent la norme WCAG 2.1. Le site devait étre en mobile first.",
+        "J'ai réalisé un site de référencement des artisans de la région Auvergne-Rhône-Alpes. J'ai crée un maquettage en respectant la charte graphique du site tout en y incorporant la norme WCAG 2.1. Le site devait être en mobile first.",
       "technologie":
-        "Utilisation de Figma pour le maquettage, du framework 'React.js' ,Bootstrap, Sass ainsi que Git et Github pour le versionning. ",
+        "J'ai utilisé Figma pour le maquettage, le framework 'React.js', Bootstrap, Sass ainsi que Git et Github pour le versionning. ",
       "versionning": "https://github.com/Samuel-Viv/trouve_ton_artisan",
       "image": "/images/artisan/Accueil1.png",
       "image1": "/images/artisan/Accueil2.png",
@@ -14,10 +14,10 @@
     },
     {
       "id": "2",
-      "titre": "Optimisez Votre CV en ligne",
-      "description": "Réalisation d'un devoir qui consiste à réaliser un Cv en ligne pour un élève.",
+      "titre": "Optimisez votre CV en ligne ",
+      "description": "J'ai réalisé un devoir consistant à concevoir un CV en ligne pour un élève.",
       "technologie":
-        "Utilisation du framework 'React.js', Bootstrap, Sass ainsi que Git et Github pour le versionning. ",
+        "J'ai utilisé le framework 'React.js', Bootstrap, Sass ainsi que Git et Github pour le versionning. ",
       "versionning": "https://github.com/Samuel-Viv/CvReact",
       "image": "/images/cvReact/CvReactAccueil1.png",
       "image1": "/images/cvReact/CvReactAccueil2.png",
@@ -28,9 +28,9 @@
       "id": "3",
       "titre": "Portfolio avec Vue",
       "description":
-        "Réalisation d'un devoir qui consiste à réaliser un portfolio personnel avec Vue.js. Création de la charte graphique ainsi que l'architecture du site.",
+        "J'ai réalisé un devoir incluant la réalisation d'un portfolio personnel avec Vue.js. J'ai créé la charte graphique ainsi que l'architecture du site.",
       "technologie":
-        "Utilisation du framework 'Vue.js' ainsi que Git et Github pour le versionning. ",
+        "L'utilisation du framework 'Vue.js' ainsi que Git et Github ont été nécessaires pour le versionning. ",
       "versionning": "https://github.com/Samuel-Viv/portfolio",
       "image": "../images/portfolio/PortfolioApropos.png",
       "image1": "../images/portfolio/PortfolioCreation.png",

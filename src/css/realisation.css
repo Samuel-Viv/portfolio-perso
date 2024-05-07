@@ -1,5 +1,8 @@
 .carte-realisation {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+}
+.carte-realisation .carte-projet img {
+  height: 300px;
 }/*# sourceMappingURL=realisation.css.map */

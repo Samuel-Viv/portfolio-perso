@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import {Link} from "react-router-dom";
 
 //css
 import "../css/about.css";
@@ -10,6 +11,7 @@ import Htlm from "../images/html-5.png";
 import JS from "../images/js.png";
 import React from "../images/react.jpg";
 import Vue from "../images/vue.jpg";
+
 
 function About() {
   useEffect(() => {
@@ -29,32 +31,32 @@ function About() {
         <div className="carte row my-3 mx-2 p-5">
           <div className="apropos_presentation col-md-6 ">
             <div className="apropos">
-              <h3 className="titres">À propos</h3>
+              <h3 className="titres">Qui suis-je ? </h3>
             </div>
             <div className="paragraphe mt-3">
-              <p>
-                Passionné par l'informatique et des nouvelles technologie, je suit actuellement une
-                formation de <strong>développeur web</strong> au seins du centre européen de
-                formation (CEF). J'ai acquis depuis le debut de cette formation de nombreuses bases
-                solides afin de pouvoir travailler dans le domaine du <strong>développement</strong>
-                .
+              <p>Actuellement en reconversion professionnelle, je suis passionné par l'informatique et les nouvelles technologie. Je suis actuellement une
+                formation de <strong>développeur web</strong> au sein du Centre Européen de
+                Formation (CEF). Depuis le début de cette formation (octobre 2023), j'ai acquis de solides bases pour travailler dans le domaine du <strong>développement</strong>.
               </p>
               <p>
-                Basé à Lyon, je suis à la recherche d'un stage de{" "}
-                <strong>10 semaines minimum</strong> au sein d'une entreprise pour validier mon
-                diplome et approfondir mes connaissance dans le domaine du{" "}
+              Résidant à Lyon, <strong>je suis à la recherche d'un stage de{" "}
+                10 semaines minimum, dès que possible
+                </strong> au sein d'une entreprise pour valider mon
+                diplôme et approfondir mes connaissances dans le domaine du{" "}
                 <strong>développement web et web mobile</strong>.
               </p>
               <p>
-                J'accorde une attention particulière à la qualité du code que j'écris et je respecte
-                les bonnes pratiques du web.
+              Je porte une attention particulière à la qualité du code que je produis et je suis rigoureux et ce, dans le respect des bonnes pratiques du web.
               </p>
+            </div>
+            <div className="text-center">
+              <button type="button" className="button-cv"><Link to="/Cv">Mon CV</Link></button>
             </div>
           </div>
 
           <div className="col-md-6">
             <div className="hard-skills">
-              <h3 className="titres">Hard Skills</h3>
+              <h3 className="titres">Compétences numériques</h3>
 
               <div className="logo ">
                 <img className="img-fluid" src={Htlm} alt="Html5" />

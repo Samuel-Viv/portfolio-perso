@@ -1,8 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 //css
-import "../css/header.css";
+import "../assets/css/header.css";
 //data 
-import projectsData from "./projectsData.json"
+import projectsData from "../assets/data/projectsData.json"
 
 function Header() {
 

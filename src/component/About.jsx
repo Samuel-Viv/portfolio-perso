@@ -2,15 +2,15 @@ import { useEffect } from "react";
 import {Link} from "react-router-dom";
 
 //css
-import "../css/about.css";
+import "../assets/css/about.css";
 //images
-import Css from "../images/css-3.png";
-import Git from "../images/git.png";
-import Github from "../images/github.png";
-import Htlm from "../images/html-5.png";
-import JS from "../images/js.png";
-import React from "../images/react.jpg";
-import Vue from "../images/vue.jpg";
+import Css from "../assets/images/css-3.png";
+import Git from "../assets/images/git.png";
+import Github from "../assets/images/github.png";
+import Htlm from "../assets/images/html-5.png";
+import JS from "../assets/images/js.png";
+import React from "../assets/images/react.jpg";
+import Vue from "../assets/images/vue.jpg";
 
 
 function About() {

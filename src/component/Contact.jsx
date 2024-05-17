@@ -1,4 +1,4 @@
-import "../css/contact.css";
+import "../assets/css/contact.css";
 function Contact() {
   return (
     <div className="container py-3">

@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import projectsData from "./projectsData.json"; // Importez les données des projets
+import projectsData from "../assets/data/projectsData.json"; // Importez les données des projets
 //css
-import "../css/realisation.css";
+import "../assets/css/realisation.css";
 
 function Realisation() {
 

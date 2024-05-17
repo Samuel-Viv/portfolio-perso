@@ -2,9 +2,9 @@
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 //css
-import "../css/cv.css";
+import "../assets/css/cv.css";
 //images
-import Samuel from "../images/Samuel_vivier.png";
+import Samuel from "../assets/images/Samuel_vivier.png";
 
 function Cv() {
   return (

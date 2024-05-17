@@ -7,7 +7,9 @@ import Footer from "../component/Footer";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 //css
-import "../css/detail.css";
+import "../assets/css/detail.css";
+
+
 function ProjectDetail({ projectsData }) {
   const { id } = useParams();
   const filteredProjects = projectsData.filter((project) => project.id === id);

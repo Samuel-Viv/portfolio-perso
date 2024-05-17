@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
-import projectsData from "../component/projectsData.json"
-import "../css/footer.css";
+import projectsData from "../assets/data/projectsData.json"
+import "../assets/css/footer.css";
 
 function Footer() {
   return (

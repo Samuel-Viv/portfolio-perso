@@ -8,6 +8,7 @@ function All(){
     return(
         <div>
             <Header></Header>
+            <p>toto</p>
             <main>
                 <About></About>
                 <Realisation></Realisation>

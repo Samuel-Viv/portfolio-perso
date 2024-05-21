@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "../assets/css/home.css";
+
 
 function Home() {
   return (
@@ -15,7 +17,7 @@ function Home() {
             <div className="chevron"></div>
           </div>
           <button type="button" className="button">
-            <a href="/All">Me découvrir</a>
+            <Link to="/all">Me découvrir</Link>
           </button>
         </div>
       </main>
